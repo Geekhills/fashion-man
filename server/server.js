@@ -214,7 +214,7 @@ app.post('/api/users/register',(req,res)=>{
     })
 });
 
-app.POST('/api/users/login',(req,res)=>{
+app.post('/api/users/login',(req,res)=>{
     User.findOne({'email':req.body.email},(err,user)=>{
         if(!user) return res.json({loginSuccess:false,message:'Auth failed, email not found'});
 

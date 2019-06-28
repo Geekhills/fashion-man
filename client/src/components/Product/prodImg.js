@@ -81,13 +81,9 @@ class ProdImg extends Component {
                 </div>
                 {
                     this.state.lightbox ?
-                        <ImageLightBox
-                            id={detail.id}
-                            images={this.state.lightboxImages}
-                            open={this.state.open}
-                            pos={this.state.imagePos}
-                            onclose={()=> this.handleLightBoxClose()}
-                        />
+                         <ImageLightBox
+                          
+                         />
                     :null
                 }
             </div>

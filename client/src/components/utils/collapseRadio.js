@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import  {faAngleDown, faAngleUp} from '@fortawesome/free-solid-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faAngleDown,faAngleUp} from '@fortawesome/free-solid-svg-icons'
 
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';

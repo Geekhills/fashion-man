@@ -11,9 +11,8 @@ import CollapseRadio from '../utils/collapseRadio';
 
 import LoadmoreCards from './loadmoreCards';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import  {faBars, faTh} from '@fortawesome/free-solid-svg-icons'
-
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faBars,faTh,} from '@fortawesome/free-solid-svg-icons'
 
 class Shop extends Component {
 

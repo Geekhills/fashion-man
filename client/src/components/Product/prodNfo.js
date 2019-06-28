@@ -1,8 +1,8 @@
 import React from 'react';
 import MyButton from '../utils/button';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import  {faTruck, faCheck, faTimes} from '@fortawesome/free-solid-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faTruck,faCheck, faTimes} from '@fortawesome/free-solid-svg-icons'
 
 const ProdNfo = (props) => {
 
